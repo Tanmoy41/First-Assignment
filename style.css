@@ -7,14 +7,19 @@ body {
 }
 .p-position {
     text-align : left;
+    font-size: 30px;
     padding-top: 90px;
     padding-left: 60px;
     color: white;
     font-size: 50;
+    width: 30%;
 }
 .a-position {
-    text-align: right;
-    padding-right: 50px;
+    /* float: right; */
+    padding-right: 23px;
+    /* padding-top: 40px; */
+    /* background: orange; */
+    padding-left: 20px;
 }
 h1 {
     font-size: 50px;
@@ -37,7 +42,7 @@ h2 {
 .one-third-width {
     width: 25%;
     float: left;
-    margin-left: 2%;
+    margin-left: 5%;
     padding-left: 2%;
 }
 .image {
@@ -48,6 +53,10 @@ h2 {
     height: 200px;
     width: 350px;
     padding-top: 30%;
+    align-items : center;
+    padding-right: -11px;
+    /* margin-right: -27px; */
+    margin-left: -43px;
 }
 section {
     height : 500px;
@@ -58,17 +67,28 @@ section {
     margin-right : 100px;
 }
 .bg-color {
-    background-color : grey;
+    background-color : white;
+}
+.click-button {
+    text-decoration : none;
+    background-color: orangered;
+    border-radius: 5px;
+    color : white;
+    float: left;
+    margin-top: 5px;
+    margin-right: 10px;
 }
 .link-button {
     text-decoration : none;
     background-color: orangered;
     border-radius: 5px;
-    padding : 5px 10px;
     color : white;
+    float: right;
+    margin-top: -61px;
+    margin-right: 60px;
+    font-size: 20px;
 }
-.bg-image {
-    background-image: url(bg-image.png);
+.img-con {
     height : 200px;
     width: 800px;
     border-radius : 50px;
@@ -82,13 +102,99 @@ section {
     font-size: 30px;
 }
 .l-p {
-    text-align: left;
+    text-align: center;
 }
 img {
     height: 50px;
     width: 50px;
 }
 .bottom-part {
-    margin-left: 40%;
     margin-bottom: 200px;
+    margin-top: 140px;
+}
+.bottom-image {
+    align-items: center;
+}
+.images {
+    text-align: center;
+}
+img {
+    margin-right: 10px;
+}
+
+.bottom {
+    text-align: left;
+}
+a.chat {
+    float: right;
+    padding-top: 59px;
+    color: white;
+    padding-right: 32px;
+}
+#first-part {
+    box-shadow: 10px 10px 40px gray;
+    background-color: whitesmoke;
+    height: 80%;
+    border-radius: 5px;
+    float: left;
+    width: 18%;
+    margin-left: 7%;
+    padding: 4%;
+}
+#second-part {
+    box-shadow: 10px 10px 40px gray;
+    background-color: whitesmoke;
+    height: 80%;
+    border-radius: 5px;
+    float: left;
+    width: 17%;
+    margin-left: 7%;
+    padding: 4%;
+}
+#third-part{
+    
+        box-shadow: 10px 10px 40px gray;
+        background-color: whitesmoke;
+        height: 80%;
+        border-radius: 5px;
+        float: left;
+        width: 17%;
+        margin-left: 7%;
+        padding: 4%;
+    
+}
+img.work-image {
+    width: 45%;
+    height: 20%;
+    margin-left: 390px;
+}
+.b-p {
+    top: 2100px;
+    position:absolute;
+    width: 300px;
+    height: 75px;
+    left: 450px;
+    font-weight: 900;
+    color: white;
+    font-size: 20px;
+}
+.l-c {
+
+padding-left: 63%;
+
+font-size: 21px;
+
+margin-top: -7%;
+
+/* border-radius: 11px; */
+}
+a {
+    text-decoration: none;
+    color: white;
+    background: orangered;
+}
+.h-position {
+    text-align: center;
+    color: #ddd;
+    margin-top: -120px;
 }
