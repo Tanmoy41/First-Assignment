@@ -29,6 +29,8 @@ h2 {
 }
 .head-position {
     text-align: center;
+    /* margin-top: -15px; */
+    margin-bottom: 43px;
 }
 .font-color {
     color: orangered;
@@ -96,7 +98,7 @@ section {
     margin-bottom: 100px;
 }
 .h2-pad {
-    padding-top: 50px;
+    padding-top: 30px;
 }
 .font-style {
     font-size: 30px;
@@ -126,10 +128,11 @@ img {
     text-align: left;
 }
 a.chat {
-    float: right;
-    padding-top: 59px;
+    /* float: right; */
+    /* padding-top: 59px; */
     color: white;
-    padding-right: 32px;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 #first-part {
     box-shadow: 10px 10px 40px gray;
@@ -152,7 +155,6 @@ a.chat {
     padding: 4%;
 }
 #third-part{
-    
         box-shadow: 10px 10px 40px gray;
         background-color: whitesmoke;
         height: 80%;
@@ -161,7 +163,6 @@ a.chat {
         width: 17%;
         margin-left: 7%;
         padding: 4%;
-    
 }
 img.work-image {
     width: 45%;
@@ -179,22 +180,37 @@ img.work-image {
     font-size: 20px;
 }
 .l-c {
-
-padding-left: 63%;
-
-font-size: 21px;
-
-margin-top: -7%;
-
-/* border-radius: 11px; */
+    padding-left: 62%;
+    font-size: 16px;
+    margin-top: -7%;
+    /* border-radius: 13px; */
 }
 a {
     text-decoration: none;
-    color: white;
-    background: orangered;
+    color: rgb(209, 21, 21);
 }
 .h-position {
     text-align: center;
-    color: #ddd;
+    color: blueviolet;
     margin-top: -120px;
+}
+.contact {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+.chat {
+    background-color: orangered;
+    padding-left: 63%;
+    font-size: 21px;
+    margin-top: -7%;
+}
+#facebook {
+    color: blue;
+}
+#instagram {
+    color: rebeccapurple;
+}
+#twitter {
+    color: skyblue;
 }
